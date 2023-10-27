@@ -2,7 +2,8 @@
 
 .navbar {
   padding: 2rem;
-  background-color:#ffe9a4;
+  background-color: #cdeda1;
+  font-family: 'Patrick Hand', cursive;
 }
 
 .navbar-collapse {
@@ -21,32 +22,35 @@ section {
 
 h1 {
   font-size: 2.5rem;
-  font-family: 'Averia Sans Libre', cursive;
+  font-family: 'Patrick Hand', cursive;
 }
 
 .seccion-oscura {
-  color: white;
-  background-color: #ffa1d1;
+  color:white;
+  background-color: #fb545c;
 }
 
 .seccion-clara {
   color: black;
-  background-color: #ffffbd;
+  background-color: #fdf5a4;
 }
 
 .seccion-titulo {
   font-size: 2rem;
   padding: 15px 0;
-  font-family: 'Averia Sans Libre', cursive;
+  font-family: 'Patrick Hand', cursive;
 }
 
 .seccion-descripcion {
   font-size: 1.2rem;
-  color: #584e4e;
+  color: #99662d;
+  font-family: 'Patrick Hand', cursive;
 }
+
 
 .seccion-texto {
   font-size: 1.2rem;
+  font-family: 'Patrick Hand', cursive;
 }
 
 .btn-info {
@@ -65,9 +69,10 @@ h1 {
 /* Seccion Hero */
 
 .hero {
-  background-color: #f5f6f7;
+  background-color:#fdf5a4;
   min-height: 450px;
   text-align: center;
+  font-family: 'Patrick Hand', cursive;
 }
 
 .hero-principal {
@@ -111,17 +116,18 @@ h1 {
   align-items: center;
   justify-content: space-evenly;
   transition: all 0.2s ease-in;
+  font-family: 'Patrick Hand', cursive;
 }
 
 .experiencia .columna:hover {
   color: white;
-  background-color: #1b1b32;
+  background-color: #b7e1a1;
 }
 
 .experiencia i {
   font-size: 2.5rem;
-  color: #7ade30;
-  background-color: #0a0a23;
+  color:white;
+  background-color: #99662d;
   padding: 8px 19px;
   border-radius: 50%;
 }
@@ -131,17 +137,18 @@ h1 {
   font-weight: bold;
   margin: 10px 0;
 }
-.badges-contenedor .badge{
-  background-color: #00baff;
-}
-.badges-contenedor¨{
+
+
+.badges-contenedor {
   font-size: 20px;
   font-weight: bold;
   margin: 10px 0;
 }
+ 
 
 .badge {
   margin: 5px;
+  background-color:#99662d ;
 }
 
 /* Proyectos */
@@ -194,6 +201,7 @@ h1 {
 
 .overlay .iconos-contenedor {
   display: flex;
+  
 }
 
 .overlay i {
@@ -236,7 +244,7 @@ h1 {
   max-width: 70%;
   font-size: 20px;
   text-align: center;
-  font-family: 'Share Tech Mono', monospace;
+  font-family: 'Patrick Hand', cursive;
 }
 
 .testimonio-info {
@@ -246,7 +254,9 @@ h1 {
 
 .testimonio-info p {
   margin-bottom: 0;
+  font-family: 'Patrick Hand', cursive;
 }
+
 
 .testimonio-footer .cliente {
   font-size: 1.2rem;
@@ -267,7 +277,7 @@ h1 {
 
 .contacto .rectangulo {
   margin-top: -5rem;
-  background-color: rgb(13, 110, 253);
+  background-color: #cdeda1;
   border-radius: 10px;
   box-shadow: 0px 1px 4px 1px white;
 }
@@ -281,6 +291,7 @@ h1 {
 .contacto .descripcion {
   color: white;
   font-size: 1.2rem;
+  font-family: 'Patrick Hand', cursive;
 }
 
 .contacto button {
@@ -292,6 +303,7 @@ h1 {
   margin: 10px;
   border-radius: 100px;
   transition: all 0.2s ease-in-out;
+  font-family: 'Patrick Hand', cursive;
 }
 
 .contacto button:hover {
@@ -325,8 +337,8 @@ footer {
   font-size: 1.5rem;
   padding: 20px;
   margin-bottom: 30px;
-  font-family: 'Quicksand', sans-serif;
-}
+  font-family: 'Patrick Hand', cursive;
+  }
 
 .iconos-redes-sociales a {
   width: 50px;
@@ -395,4 +407,4 @@ footer {
   .hero-inferior-imagen {
     max-width: 600px;
   }
-}
+  }
